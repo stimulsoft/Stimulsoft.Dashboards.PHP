@@ -1,0 +1,31 @@
+{
+  "name": "stimulsoft/dashboards-php",
+  "description": "Stimulsoft Dashboards.PHP",
+  "keywords": ["dashboard", "dashboards", "analytics", "viewer", "designer", "data", "xml", "json", "sql", "export", "pdf", "excel", "filter", "group", "sort", "pivot", "table", "charts", "maps"],
+  "homepage": "https://www.stimulsoft.com/en/products/dashboards-php",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": ">=5.6",
+    "phpmailer/phpmailer": "^6.6",
+    "ext-mbstring": "*",
+    "ext-json": "*",
+    "ext-zlib": "*",
+    "stimulsoft/reports-php": "2022.4.4"
+  },
+  "suggest": {
+    "ext-pdo": "*",
+    "ext-oci8": "*",
+    "ext-interbase": "*",
+    "ext-pgsql": "*",
+    "ext-odbc": "*",
+    "ext-sqlsrv": "*",
+    "ext-mssql": "*",
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
