@@ -6,12 +6,12 @@
   "minimum-stability": "stable",
   "license": "proprietary",
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.1",
     "phpmailer/phpmailer": "^6.6",
     "ext-mbstring": "*",
     "ext-json": "*",
     "ext-zlib": "*",
-    "stimulsoft/reports-php": "2025.2.3"
+    "stimulsoft/reports-php": "2025.2.4"
   },
   "suggest": {
     "ext-pdo": "*",
