@@ -11,7 +11,7 @@
     "ext-mbstring": "*",
     "ext-json": "*",
     "ext-zlib": "*",
-    "stimulsoft/reports-php": "2025.4.2"
+    "stimulsoft/reports-php": "2025.4.3"
   },
   "suggest": {
     "ext-pdo": "*",
